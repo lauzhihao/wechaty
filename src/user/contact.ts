@@ -743,4 +743,8 @@ export class Contact extends Accessory implements Sayable {
     return (this.payload && this.payload.weixin) || null
   }
 
+  public head (): null | string {
+    return (this.payload && this.payload.weixin) || null
+  }
+
 }
